@@ -1,0 +1,325 @@
+#screen {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-color: red;
+    overflow: hidden;
+}
+
+#game {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+#game_background {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    background-image: url(../img/spil_img/baggrund.svg);
+    background-size: cover;
+}
+
+#game_elements {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#frugt1_container{
+    position: absolute;
+    width: 7%;
+    aspect-ratio: 6/6;
+}
+#frugt1_sprite{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/spil_img/frugt1.svg);
+    background-size: cover;
+}
+
+#frugt2_container{
+    position: absolute;
+    width: 7%;
+    aspect-ratio: 3.9/4;
+}
+#frugt2_sprite{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/spil_img/frugt2.svg);
+    background-size: cover;
+}
+
+#frugt3_container{
+    position: absolute;
+    width: 7%;
+    aspect-ratio: 5.9/9;
+}
+#frugt3_sprite{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/spil_img/frugt3.svg);
+    background-size: cover;
+}
+
+#græn_container{
+    position: absolute;
+    width: 9%;
+    aspect-ratio: 4.5/6;
+    
+}
+#græn_sprite{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/spil_img/graen.svg);
+    background-size: cover;
+}
+
+#orm_2_container{
+    position: absolute;
+    width: 9%;
+    aspect-ratio: 5/4;
+  }
+  #orm_2_sprite{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/spil_img/orm_2.svg);
+    background-size: cover;
+  }
+
+
+#mellemgrund {
+    position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/spil_img/mellemgrund.svg);
+  background-size: cover;
+  pointer-events: none;
+}
+
+#game_foreground {
+    position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/spil_img/forgrund.svg);
+  background-size: 100%;
+  pointer-events: none;
+}
+
+#game_ui {
+    position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#energy_board {
+    position: absolute;
+    top: 80%;
+    left: 77%;
+    width: 20%;
+    height: 10%;
+    aspect-ratio: 8/3;
+   /* background-color: black;*/
+    /*background-image: url(../img/liv.svg);*/
+    background-size: cover;
+    container-type: inline-size;
+}
+
+#time_board {
+    position: absolute;
+    top: 80%;
+    left: 11%;
+    width: 5%;
+    aspect-ratio: 3.5/5;
+    background-image: url(../img/spil_img/timeglas.svg);
+    background-size: cover;
+}
+
+#time {
+position: absolute;
+top: 0;
+left: 1%;
+width: 100%;
+height: 100%;
+background-image: url(../img/spil_img/timeglas.svg);
+background-size: cover;
+filter: saturate(100) hue-rotate(0deg);
+}
+
+#score_board {
+    position: absolute;
+    top: 78%;
+    left: 44%;
+    width: 7%;
+    aspect-ratio: 8/8;
+    background-color: none;
+    background-size: cover;
+    container-type: inline-size;
+}
+
+#score {
+    color: black;
+    font-size: 27cqw;
+    margin: 0;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+#energy {
+    color: red;
+    font-size: 20cqw;
+    margin: 0;
+    position: absolute;
+    left: 45%;
+    top: 25%;
+}
+
+#energy1,
+#energy2,
+#energy3 {
+    position: absolute;
+    width: 35cqw;
+    aspect-ratio: 1.3/1;
+    background-image: url(../img/spil_img/liv.svg);
+    background-size: contain;
+    margin: 0;
+}
+#energy1 {
+    left: 0%;
+    top: 1%;
+    
+  }
+  #energy2 {
+    left: 35.5%;
+    top: 1%;
+  }
+  #energy3 {
+    left: 70%;
+    top: 1%;
+  }
+
+  #start{
+    /* display: none;*/
+ position: absolute;
+ top: 0%;
+ left: 0%;
+ width: 100%;
+ height: 100%;
+ background-image: url(../img/spil_img/startside.svg);
+ background-size: cover;
+}
+
+#game_over{
+    /* display: none;*/
+ position: absolute;
+ top: 0%;
+ left: 0%;
+ width: 100%;
+ height: 100%;
+ background-image: url(../img/spil_img/game_over.svg);
+ background-size: cover;
+}
+
+#level_complete{
+    /* display: none;*/
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   background-image: url(../img/spil_img/level_complete.svg);
+   background-size: cover;
+ }
+
+ .hide {
+    display: none;
+  }
+
+.pos1 {
+    top: -15%;
+  left: 25%;
+}
+.pos2 {
+    top: -15%;
+  left: 35%;
+}
+.pos3 {
+    top: -15%;
+  left: 45%;
+}
+.pos4 {
+    top: -15%;
+  left: 55%;
+}
+.pos5 {
+    top: -15%;
+  left: 65%;
+}
+.pos6 {
+    top: -15%;
+  left: 75%;
+}
+.pos7 {
+    top: -15%;
+  left: 85%;
+}
+
+#start_btn {
+    position: absolute;
+    width: 20%;
+    aspect-ratio: 1.7/1;
+    background-image: url(../img/spil_img/start-knap.svg);
+    background-size: contain;
+    left: 40%;
+    top: 60%;
+  }
+
+  #play-again-1_btn,
+#play-again-2_btn {
+  position: absolute;
+  width: 20%;
+  aspect-ratio: 2/1;
+  background-image: url("../img/spil_img/spil_igen.svg");
+  background-size: cover;
+  top: 55%;
+  left: 39%;
+}
+
+
+#mute {
+    position: absolute;
+    width: 5%;
+    aspect-ratio: 1/1;
+    left: 90%;
+    top: 2%;
+    background-color: none;
+    background-image: url(../img/spil_img/lyd-fra.svg);
+    background-size: contain;
+  }
+
+  #mute_on {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 1/1;
+    left: 90%;
+    top: 82%;
+    background-color: #fff;
+    background-image: url(../img/spil_img/lyd-fra.svg);
+    background-size: contain;
+  }

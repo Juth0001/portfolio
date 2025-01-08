@@ -1,0 +1,27 @@
+@media (min-width: 325px){
+    main{
+        height: 100%;         
+    }
+    
+        #content{
+            position: fixed;
+            left: 35%;
+            top: 53%;
+        }
+    }
+    
+    
+    
+    @media (min-width: 1025px){
+       
+            
+            main{
+                height: 100%;      
+    
+            }
+                #content{
+                    position: fixed;
+                    left: 42%;
+                    top: 53%;
+                }
+    }

@@ -1,0 +1,510 @@
+@media (max-width: 768px){
+    body{
+        background-color: #5D5D4D;
+      font-family: 'Italiana-Ragular';
+      font-weight: 400;
+      font-style:normal;
+      color: #312A20;
+    }
+    main{
+      border-top: 1px solid #B6A38D;
+      border-bottom: 1px solid #B6A38D;
+      border-left: 1px solid #B6A38D;
+    }
+    h3{
+      text-align: center;
+      margin-top: 50px
+    }
+    .fast_border{
+      overflow: hidden; 
+    }
+    #logo{
+      position: absolute;
+      top: 21,01%;
+      left: 66%;
+      padding-right: 2em;
+      padding-bottom: 1em;
+      padding-left: 1em;
+      border-bottom: 1px solid #B6A38D;
+      border-left: 1px solid #B6A38D;
+    }
+    .logo_jat{
+      position: fixed;
+      left: 45%;
+      top: 35%;
+    }
+    
+    
+    a{
+        text-decoration: none;
+        color: #B6A38D;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    
+    #navn_pynt, #skole_pynt, #eksamen_pynt{
+        color: #B6A38D;
+        font-size: 0.7em;
+    }
+    
+    #navn_pynt{
+        rotate: -90deg;
+    position: fixed;
+    left: -10%;
+        top: 30%;
+        
+    }
+    
+    #skole_pynt{
+        rotate: -90deg;
+        position: fixed;
+        left: 0%;
+        top: 50%;
+    }
+    
+    #eksamen_pynt{
+        rotate: -90deg;
+        position: fixed;
+        left: -9%;
+        top: 70%;
+    }
+    
+    
+    header{
+        border-top: 1px solid #B6A38D;
+            border-left: 1px solid #B6A38D;
+    }
+    .burger-container {
+        position: relative;
+        z-index: 20;
+       
+      }
+      .burger-icon {
+        width: 30px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        margin: 10px;
+        
+      }
+      .burger-line {
+        width: 80%;
+        height: 3px;
+        background-color: #333;
+        border-radius: 5px;
+      }
+      .menu {
+        display: none;
+        position: absolute;
+        background-color: #5D5D4D;
+        width: 200px;
+        height: 100vh;
+        padding-top: 60px;
+        border: 0.1em solid #B6A38D;
+      }
+      .menu ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .menu ul li {
+        text-align: center;
+        margin: 20px 0;
+      }
+      .menu ul li a {
+        color:#B6A38D;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+        padding: 10px;
+        
+      }
+    .menu-toggle{
+        display: none;
+    }
+      .menu-toggle:checked + .burger-icon + .menu {
+        display: block;
+      }
+    
+    
+    
+        .footer{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border-bottom: 1px solid #B6A38D;
+            border-left: 1px solid #B6A38D;
+            padding-right: 2em;
+        }
+    
+        .footer_1{
+            margin: 2em;
+            grid-column: 1/2;
+        }
+            
+        .footer_2{
+          grid-column: 2/3;
+              align-items:center;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            margin-top: 1em;
+            margin-left: 1em;
+        }
+        .footer_3{
+          grid-column: 3/4;
+              align-items:center;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            margin-top: 1em;
+            margin-left: 1em;
+        }
+      }
+    
+    
+    
+    
+      @media (min-width: 768px){
+        body{
+          background-color: #5D5D4D;
+        font-family: 'Italiana-Ragular';
+        font-weight: 400;
+        font-style:normal;
+        color: #312A20;
+      }
+      main{
+        border-top: 1px solid #B6A38D;
+        border-bottom: 1px solid #B6A38D;
+        border-left: 1px solid #B6A38D;
+        
+      }
+      h3{
+        text-align: center;
+        margin-top: 50px
+      }
+      .fast_border{
+        overflow: hidden; 
+      }
+      #logo{
+        position: absolute;
+        top: 54px;
+        right: 1px;
+        padding-top: 1em;
+        padding-right: 2em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+      
+        border-top: 1px solid #B6A38D;
+        border-bottom: 1px solid #B6A38D;
+        border-left: 1px solid #B6A38D;
+      }
+      
+      .logo_jat{
+        position: fixed;
+        left: 43%;
+        top: 35%;
+      }
+      
+      a{
+          text-decoration: none;
+          color: #B6A38D;
+      }
+      a:hover{
+          text-decoration: underline;
+      }
+      
+      
+      #navn_pynt, #skole_pynt, #eksamen_pynt{
+          color: #B6A38D;
+          font-size: 0.7em;
+      }
+      
+      #navn_pynt{
+          rotate: -90deg;
+      position: fixed;
+      left: -5.5%;
+          top: 30%;
+          
+      }
+      
+      #skole_pynt{
+          rotate: -90deg;
+          position: fixed;
+          left: 0%;
+          top: 50%;
+      }
+      
+      #eksamen_pynt{
+          rotate: -90deg;
+          position: fixed;
+          left: -4.7%;
+          top: 70%;
+      }
+      
+      
+      header{
+          border-top: 1px solid #B6A38D;
+              border-left: 1px solid #B6A38D;
+      }
+      .burger-container {
+          position: relative;
+          z-index: 20;
+         
+        }
+        .burger-icon {
+          width: 30px;
+          height: 25px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          cursor: pointer;
+          margin: 10px;
+          
+        }
+        .burger-line {
+          width: 80%;
+          height: 3px;
+          background-color: #333;
+          border-radius: 5px;
+        }
+        .menu {
+          display: none;
+          position: absolute;
+          background-color: #5D5D4D;
+          width: 200px;
+          height: 100vh;
+          padding-top: 60px;
+          border: 0.1em solid #B6A38D;
+        }
+        .menu ul {
+          list-style: none;
+          padding: 0;
+        }
+        
+        .menu ul li {
+          text-align: center;
+          margin: 20px 0;
+        }
+        .menu ul li a {
+          color:#B6A38D;
+          text-decoration: none;
+          font-size: 20px;
+          display: block;
+          padding: 10px;
+          
+        }
+      .menu-toggle{
+          display: none;
+      }
+        .menu-toggle:checked + .burger-icon + .menu {
+          display: block;
+        }
+      
+      
+      
+          .footer{
+              display: grid;
+              grid-template-columns: repeat(5, 1fr);
+              grid-row: 5;
+              border-bottom: 1px solid #B6A38D;
+              border-left: 1px solid #B6A38D;
+          }
+      
+          .footer_1{
+              margin: 2em;
+              grid-column: 1/2;
+          }
+              
+          .footer_2{
+            grid-column: 4/5;
+            align-items:center;
+            justify-self: end;
+              display: grid;
+              grid-template-rows: 1fr  1fr;
+              margin-top: 1em;
+              margin-left: 1em;
+          }
+          .footer_3{
+            grid-column: 5/6;
+            align-items:center;
+              display: grid;
+              grid-template-rows: 1fr  1fr;
+              margin-top: 1em;
+              margin-right: 5em;
+              margin-left: 1em;
+          }
+          
+      
+      }
+    
+    
+        @media (min-width: 1025px){
+          body{
+            background-color: #5D5D4D;
+          font-family: 'Italiana-Ragular';
+          font-weight: 400;
+          font-style:normal;
+          color: #312A20;
+        }
+        main{
+          border-top: 1px solid #B6A38D;
+          border-bottom: 1px solid #B6A38D;
+          border-left: 1px solid #B6A38D;
+          
+        }
+        h3{
+          text-align: center;
+          margin-top: 50px
+        }
+        .fast_border{
+          overflow: hidden; 
+        }
+        #logo{
+          position: absolute;
+          top: 21,01%;
+          left: 89%;
+          padding-right: 2em;
+          padding-bottom: 1em;
+          padding-left: 1em;
+          border-bottom: 1px solid #B6A38D;
+          border-left: 1px solid #B6A38D;
+        }
+        
+        .logo_jat{
+          position: fixed;
+          left: 43%;
+          top: 35%;
+        }
+        
+        a{
+            text-decoration: none;
+            color: #B6A38D;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        
+        
+        #navn_pynt, #skole_pynt, #eksamen_pynt{
+            color: #B6A38D;
+            font-size: 0.7em;
+        }
+        
+        #navn_pynt{
+            rotate: -90deg;
+        position: fixed;
+        left: -3.1%;
+            top: 30%;
+            
+        }
+        
+        #skole_pynt{
+            rotate: -90deg;
+            position: fixed;
+            left: 0%;
+            top: 50%;
+        }
+        
+        #eksamen_pynt{
+            rotate: -90deg;
+            position: fixed;
+            left: -2.7%;
+            top: 70%;
+        }
+        
+        
+        header{
+            border-top: 1px solid #B6A38D;
+                border-left: 1px solid #B6A38D;
+        }
+        .burger-container {
+            position: relative;
+            z-index: 20;
+           
+          }
+          .burger-icon {
+            width: 30px;
+            height: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+            margin: 10px;
+            
+          }
+          .burger-line {
+            width: 80%;
+            height: 3px;
+            background-color: #333;
+            border-radius: 5px;
+          }
+          .menu {
+            display: none;
+            position: absolute;
+            background-color: #5D5D4D;
+            width: 200px;
+            height: 100vh;
+            padding-top: 60px;
+            border: 0.1em solid #B6A38D;
+          }
+          .menu ul {
+            list-style: none;
+            padding: 0;
+          }
+          
+          .menu ul li {
+            text-align: center;
+            margin: 20px 0;
+          }
+          .menu ul li a {
+            color:#B6A38D;
+            text-decoration: none;
+            font-size: 20px;
+            display: block;
+            padding: 10px;
+            
+          }
+        .menu-toggle{
+            display: none;
+        }
+          .menu-toggle:checked + .burger-icon + .menu {
+            display: block;
+          }
+        
+        
+        
+            .footer{
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-row: 5;
+                border-bottom: 1px solid #B6A38D;
+                border-left: 1px solid #B6A38D;
+            }
+        
+            .footer_1{
+                margin: 2em;
+                grid-column: 1/2;
+            }
+                
+            .footer_2{
+              grid-column: 4/5;
+              align-items:center;
+              justify-self: end;
+                display: grid;
+                grid-template-rows: 1fr  1fr;
+                margin-top: 1em;
+                margin-left: 1em;
+            }
+            .footer_3{
+              grid-column: 5/6;
+              align-items:center;
+                display: grid;
+                grid-template-rows: 1fr  1fr;
+                margin-top: 1em;
+                margin-left: 1em;
+            }
+            
+        
+        }

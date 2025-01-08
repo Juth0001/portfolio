@@ -1,0 +1,78 @@
+.hop {
+    animation: hop 2s infinite alternate;
+}
+
+@keyframes hop {
+    from {
+        scale: 0 0;
+    }
+    to {
+        scale: 1 1;
+    }
+}
+
+.fald {
+    animation: fald;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes fald {
+    from {
+        translate: 0 0;
+    }
+    to {
+        translate: 0 950%;
+    }
+}
+
+.forsvind {
+    animation: forsvind 2s 1;
+}
+.delay1 {
+    animation-delay: 0s;
+  }
+  .delay2 {
+    animation-delay: 0.4s;
+  }
+  .delay3 {
+    animation-delay: 0.7;
+  }
+  .delay4 {
+    animation-delay: 1s;
+  }
+
+  @keyframes forsvind {
+    from {
+        opacity: 1;
+        rotate: 0deg;
+        scale: 1;
+      }
+      to {
+        opacity: 0;
+        rotate: 720deg;
+        scale: 0;
+      }
+  }
+
+  .frys {
+    animation-play-state: paused;
+  }
+  .skjul {
+    display: none;
+  }
+
+  .time-goes {
+    animation: time-goes 60s linear both;
+  }
+
+  @keyframes time-goes {
+    0% {
+      clip-path: inset(0 0 0 0);
+    }
+    100% {
+      clip-path: inset(100% 0 0 0);
+    }
+  }
+  

@@ -1,0 +1,130 @@
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/cv.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <div class="burger-container">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            
+
+            <label for="menu-toggle" class="burger-icon">
+              <div class="burger-line"></div>
+              <div class="burger-line"></div>
+              <div class="burger-line"></div>
+            </label>
+        
+
+            <nav class="menu">
+              <ul>
+                <li><a href="index.html">Forside</a></li>
+              <li><a href="cv.html">CV</a></li>
+              <li><a href="tema2_computer.html">Tema 2; Computere</a></li>
+              <li><a href="tema3_mealprepping.html">Tema 3; Meal-Prepping</a></li>
+              <li><a href="tema4_animation.html">Tema 4; Fruit Fall</a></li>
+              <li><a href="tema5_passionsite.html">Tema 5; Passionsite</a></li>
+              <li><a href="tema5_virksomhed.html">Tema 5; Virksomhedssite</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              </ul>
+            </nav>
+        </div>
+</header>
+<main>
+
+    <section class="fast_border">
+    </section>
+
+        <div class="info_pynt">
+            <p id="navn_pynt">Julie Alstrup Therkelsen</p>
+            <p id="skole_pynt">Kea</p>
+            <p id="eksamen_pynt">1. Semester Eksamen</p>
+        </div>
+
+        <div class="Hero_section">
+            <div id="logo">
+                <a href="index.html"> <img src="img/logo/Logo_jat_lille.png" alt="JAT" ></a>
+             </div>
+            <div id="name_container">
+                <div id="name_sprite"></div>
+            </div>
+        </div>
+
+
+        <div class="portræt">
+            <div>
+                <img src="img/logo/portræt2.png" alt="portræt af Julie">
+            </div>
+        </div>
+
+        <section class="info">
+            <p>Julie Alstrup Therkelsen</p>
+            <p>juth0001@stud.kea.dk</p>
+            <p>Frederiksberg C</p>
+            <p>
+                <a href="https://www.linkedin.com/in/julie-alstrup-therkelsen-47525a344/">Linkedin</a>
+            </p>
+
+        </section>
+
+        <div class="carousel-container">
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        
+
+            <div class="carousel">
+
+              <div class="carousel-slide_1">
+                <div class="inner-div"><p>Restaurant/servetrice 2018-2022</p></div>
+                <div class="inner-div"><p>Personlig assistent 2020-2023</p></div>
+              </div>
+
+              <div class="carousel-slide_2">
+                <div class="inner-div"><p>Privat barnepige 2020-2023</p></div>
+                <div class="inner-div"><p>Pædagog- medhjælper 2022-2024</p></div>
+              </div>
+
+              <div class="carousel-slide_3">
+                <div class="inner-div"><p>Gymnasiel HF xxxx-2022</p></div>
+                <div class="inner-div"><p>MMD studine 2024-2026</p></div>
+              </div>
+            </div>
+        
+
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+          </div>
+
+
+</main>
+
+<footer>
+    <section class="footer">
+        <div class="footer_1">
+            <img src="img/logo/Logo_jat_lille.png" alt="JAT">
+            <p>&#169; Julie Alstrup Therkelsen 2025</p>
+        </div>
+        <div class="footer_2">
+            <img src="img/logo/Mail.png" alt="Mail">
+            <img src="img/logo/Instagram.png" alt="">
+        </div>
+        <div class="footer_3">
+            <p><strong>juth0001@stud.kea.dk</strong></p>
+            <p><strong>Julie_Alstrup</strong></p>
+        </div>
+    </section>
+</footer>
+
+
+    <script src="js/cv.js"></script>
+    <script src="js/cv_carrousel.js"></script>
+</body>
+</html>
